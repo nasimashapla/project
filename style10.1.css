@@ -1,0 +1,35 @@
+.table{
+   height: 300px; 
+   width: 100%;
+   border: green;
+   
+}
+
+
+tr {
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+ 
+.table tr:hover{
+    background-color: coral;
+    cursor: pointer;
+}
+
+.header{
+    background-color: lightgreen;
+    border: none;
+
+
+}
+.id1{
+    background-color: lightcoral;
+}
+
+.id2{
+    background-color: lightcoral;
+}
+
+.id3{
+    background-color: lightcoral;
+}
