@@ -1,0 +1,182 @@
+.contant {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.list {
+    display: flex;
+    background-color: rgb(200, 204, 212);
+    padding: 5px;
+    margin: 3px;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    gap: 70px;
+}
+input {
+    height: 50px;
+    width: 400px;
+    padding: 2px;
+    margin: 4px;
+}
+
+.btn {
+    height: 40px;
+    width: 90px;
+    background-color: rgb(129, 170, 95);
+}
+button {
+    width: 100px;
+    justify-content: space-between;
+    padding: 13px;
+    gap: 50px;
+    background-color: rgb(136, 212, 48);
+    color: white;
+    border-radius: 9px;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  max-height: 100px;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  width: auto;
+  padding: 10px;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 5px 12px;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 10px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.text {
+    display: flex;
+    gap: 30px;
+    color: white;
+    font-size: 12px;
+    background-color: rgb(15, 148, 209);
+    justify-content: center;
+}
+
+
+.Featured {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    background-color: aliceblue;
+}
+h2 {
+    padding: 5px;
+    width: 100%;
+}
+h3 {
+    color: rgb(22, 135, 211);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.cart1 {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px;
+}
+
+.cart {
+    height: 350px;
+    width: 200px;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 15px;
+}
+
+img {
+    height: 160px;
+    width: 200px;
+}
+.list1 {
+    display: flex;
+    padding: 5px;
+    margin: 3px;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
