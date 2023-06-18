@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    
+<div>
+    <div class="contant ">
+        <img class="logo" src="Image/Capture.PNG" alt="logo-img">
+        <button class="btn">Buy now</button>
+    </div>
+    <div class="list">
+        <li class="id">currency</li>
+        <li>123456789</li>
+        <li>My Account</li>
+        <li>Wish List</li>
+        <li>Shopping Cart</li>
+        <li>Checkout</li>
+    </div>
+    <div class="input">        
+        <input id="text" placeholder="search" >
+        <button>submit</button>
+        <div class="text">
+            <h4>Accessories</h4>
+            <h4>Bags</h4>
+            <h4>Design Templates</h4>
+            <h4>Electronics</h4>
+            <h4>Home & living</h4>
+            <h4>Kid's & youth clothing</h4>
+            <h4>Men's clothing</h4>
+            <h4>Office</h4>
+            <h4>Phone case</h4>
+            <h4>Women's clothing</h4>
+        </div>
+    </div>
+    
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+        <div class="numbertext">1 / 2</div>
+        <img src="https://demo.tshirtecommerce.com/opencart/image/cache/catalog/banner/Custom-Product-Designer-T-Shirt-eCommerce-1140x380.png"" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+        <div class="numbertext">2 / 2</div>
+        <img src="https://demo.tshirtecommerce.com/opencart/image/cache/catalog/banner/Custom-Product-Designer-T-Shirt-eCommerce%20(1)-1140x380.png"" style="width:100%">
+            
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        </div>
+    </div>    
+    
+
+      
+    <div class="Featured">
+        <h2>Featured</h2>
+    </div>
+    <div class="cart1">
+        <div class="cart">
+            <img src ="https://demo.tshirtecommerce.com/opencart/image/cache/catalog/TM1111-200x200.png" alt="">
+            <h3>Unisex Shirt Sleeve Jersey T-Shirt</h3>
+            <p>T-shirt feels soft and light, with just the right amount of stretch. It's comfortable and the unisex..
+            <br>$12.95<br>
+            Ex Tax:$12.95</p>            
+        </div>
+
+        <div class="cart">
+            <img src ="https://demo.tshirtecommerce.com/opencart/image/cache/catalog/SC1130-200x200.png" alt="">
+            <h3>Samsung Galaxy J3 2017J330 Case</h3>
+            <p>Durable hard-shell & form-fitting case. Access to all port..
+            <br>$15.50<br>
+            Ex Tax:$15.50</p>
+        </div>
+
+        <div class="cart">
+            <img src ="https://demo.tshirtecommerce.com/opencart/image/cache/catalog/BAG0003-200x200.png" alt="">
+            <h3>Unisex Shirt Sleeve Jersey T-Shirt</h3>
+            <p>・Dimensions: 33.5 cm x 23.5 cm x 0.1cm ・Material: Oxford・Printed in full color on both si..
+            <br>$25.10<br>
+            Ex Tax:$25.10</p>
+        </div>
+
+        <div class="cart">
+            <img src ="https://demo.tshirtecommerce.com/opencart/image/cache/catalog/EL0006-200x200.jpg" alt="">
+            <h3>Unisex Shirt Sleeve Jersey T-Shirt</h3>
+            <p>T-shirt feels soft and light, with just the right amount of stretch. It's comfortable and the unisex..
+            <br>$12.95<br>
+            Ex Tax:$12.95</p>
+        </div>
+</div> 
+
+<script src="object.js"></script>
+</body>
+</html>
