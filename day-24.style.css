@@ -1,0 +1,107 @@
+.contant {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+.logo {
+    height: 35px;
+    width: 100px;
+}
+
+.list {
+    display: flex;
+    background-color: rgb(200, 204, 212);
+    padding: 5px;
+    margin: 3px;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    gap: 70px;
+    width: 100%;
+}
+
+input {
+    height: 50px;
+    width: 400px;
+    padding: 2px;
+    margin: 0 auto;
+}
+.btn2 {
+    height: 40px;
+    width: 300px;
+    background-color: black;
+    color: white;
+}
+.btn {
+    width: 100px;
+    justify-content: space-between;
+    padding: 13px;
+    gap: 50px;
+    background-color: rgb(136, 212, 48);
+    color: white;
+    border-radius: 9px;
+}
+.text1 {
+    display: flex;
+    gap: 30px;
+    color: white;
+    font-size: 12px;
+    background-color: rgb(15, 148, 209);
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+}
+.slideshow-container24{
+    height: 400px;
+    width: 100%;
+    background-color: aqua;
+    margin-top: 15px;
+}
+
+.maincon{
+    width: 1150px;
+    border: 2px solid black;
+    margin: 15px;
+    margin: 0 auto;
+    height: 3000px
+}
+
+.card{
+    height: 370px;
+    width: 240px;
+    float: left;
+    margin: 20px;
+    border: 2px solid black;
+}
+.bottombtn{
+    height: 30px;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    border: none;
+   
+}
+.imgcon{
+    height: 177.5px;
+    width: 100%;
+}
+
+.bottomslider{
+    height: 130px;
+    width: 1150px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 15px;
+    
+}
+
+.fotter{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(29, 24, 24);
+    float: left;
+    margin-top: 15px;
+}
