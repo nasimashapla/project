@@ -26,7 +26,7 @@
 input {
     height: 50px;
     width: 400px;
-    padding: 2px;
+    padding: 5px;
     margin: 0 auto;
 }
 .btn2 {
@@ -63,18 +63,19 @@ input {
 
 .maincon{
     width: 1150px;
-    border: 2px solid black;
     margin: 15px;
     margin: 0 auto;
-    height: 3000px
+    height: 1900px;
+    border: 1px solid black;
+    
 }
 
 .card{
-    height: 370px;
+    height: 390px;
     width: 240px;
     float: left;
     margin: 20px;
-    border: 2px solid black;
+    border: 2px solid rgb(192, 196, 196);
 }
 .bottombtn{
     height: 30px;
@@ -87,6 +88,7 @@ input {
 .imgcon{
     height: 177.5px;
     width: 100%;
+   
 }
 
 .bottomslider{
@@ -99,9 +101,14 @@ input {
 }
 
 .fotter{
-    height: 200px;
+    height: 300px;
     width: 100%;
     background-color: rgb(29, 24, 24);
     float: left;
     margin-top: 15px;
+    padding: 10px;
+    color: white;
+    list-style: none;
 }
+
+
