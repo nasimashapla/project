@@ -73,14 +73,18 @@ body{
     display: flex;
     justify-content: center;
 }
-.btn {
-    display: flex;
-    align-items: center;
+
+.btn1{
     border-radius: 8px;
     background: #426B1F;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    padding: 13px 23px;
     border-style: none;
-    padding: 16px 96px;
-
 }
 .contant {
     height: 100%;
