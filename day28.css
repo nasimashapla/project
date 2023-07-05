@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    margin-bottom: 20px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: bisque;
+    border-radius: 20px;
+}
