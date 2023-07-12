@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login and Register with Firebase</title>
+  <!-- Bootstrap CSS CDN link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Login and Register with Firebase</h1>
+   <div class="d-flex gap-10  justify-content-center  align-items-center">
+    <div class="col-md-6 col-lg-6 mx-auto">
+      <h2>Login</h2>
+      <form id="loginForm" action="#">
+        <div class="mb-3">
+          <input type="email" name="loginEmail" class="form-control" placeholder="Email" id="loginEmail"/>
+        </div>
+        <div class="mb-3">
+          <input type="password" name="loginPassword" class="form-control" placeholder="Password" id="loginPassword"/>
+        </div>
+        <button class="btn btn-primary" onclick="signInWithEmailPassword()">Login</button>
+      </form>
+    </div>
+
+    <div class="col-md-6 col-lg-6 mx-auto mt-5">
+      <h2>Register</h2>
+      <form id="registerForm" action="#">
+        <div class="mb-3">
+          <input type="email" name="registerEmail" class="form-control" placeholder="Email" id="registerEmail"/>
+        </div>
+        <div class="mb-3">
+          <input type="password" name="registerPassword" class="form-control" placeholder="Password" id="registerPassword"/>
+        </div>
+        <button class="btn btn-primary" onclick="registerWithEmailPassword()">Register</button>
+      </form>
+    </div>
+   </div>
+      <button id="googleSignIn" class="btn btn-danger"> Login with Google</button>
+      <button id="githubSignin" class="btn btn-danger"> Login with Github</button>
+
+    <div id="userDetails" class="mt-5">
+      <h2>User Details:</h2>
+      <p id="userName"></p>
+      <p id="userEmail"></p>
+      <button class="btn btn-primary" id="signOutButton">Sign Out</button>
+    </div>
+  </div>
+
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
